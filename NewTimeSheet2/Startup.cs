@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using NewTimeSheet2.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace NewTimeSheet2
 {
@@ -41,6 +42,13 @@ namespace NewTimeSheet2
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        }
+        //Trying to createRoles
+        private void createRoles()
+        {
+            ApplicationDbContext context = new ApplicationDbContext();
+            // var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

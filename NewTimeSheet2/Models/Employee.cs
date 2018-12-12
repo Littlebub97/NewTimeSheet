@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 
 
-namespace TimeSheet.Models.Entities
+namespace NewTimeSheet2.Models
 {   
-    [Table("Employee", Schema = "TimeSheet")]
-    public class Employee 
+    public class Employee : IdentityUser
     {
         [Required]
         [DataType(DataType.Text), MaxLength(50)]
