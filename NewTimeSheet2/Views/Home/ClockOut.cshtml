@@ -5,7 +5,7 @@
 
 <form>
     <h2>Clock Out here by entering your time which is displayed at the bottom</h2>
-    <button type="button" value="Refresh Page" onclick="window.location.reload()">Clock Out!</button>
+    <a href="index" class="btn btn-default btn-flat">ClockOut</a>
     <img src="~/images/Clock-icon.png" />
     Time: <input type="datetime" name="Time" /><br />
     <p id="demo"></p>
@@ -22,3 +22,16 @@
 
 </form>
 
+<form id="form1" runat="server">
+    <asp:Label ID="Label1" Text="Loggin Out Please Wait" runat="server" />
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick">
+                </asp:Timer>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </div>
+</form>

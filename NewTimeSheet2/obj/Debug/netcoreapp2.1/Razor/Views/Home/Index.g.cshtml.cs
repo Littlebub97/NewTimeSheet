@@ -60,7 +60,7 @@ using NewTimeSheet2.Models;
             WriteLiteral("\r\n\r\n<div id=\"HomePage\" style=\"text-align:center; font-size: 30px; border-width: 100px; color: black;\">\r\n    Welcome to the Sample TimeSheet Page!\r\n    ");
             EndContext();
             BeginContext(196, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "cd5730210f4b4f50ac9ae06ffb49b8a1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f16c834decda4ca9a54b8b0ac2e28e80", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

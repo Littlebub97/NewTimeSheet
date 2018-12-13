@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NewTimeSheet2.Models;
 
@@ -22,16 +23,19 @@ namespace NewTimeSheet2.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Manager()
         {
             ViewData["Message"] = "Manager";
             return View();
         }
+        [Authorize]
         public IActionResult ClockIn()
         {
             ViewData["Message"] = "ClockIn";
             return View();
         }
+        [Authorize]
         public IActionResult ClockOut()
         {
             ViewData["Message"] = "ClockOut";
