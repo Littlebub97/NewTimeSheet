@@ -63,12 +63,12 @@ using NewTimeSheet2.Models;
 #line default
 #line hidden
             BeginContext(55, 536, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e864b490f91441358751aa65d0c297e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f1b678f5f5434d309ef0de0d2793f37a", async() => {
                 BeginContext(61, 191, true);
                 WriteLiteral("\r\n    <h2>Clock In here by entering your time which is displayed at the bottom</h2>\r\n    <button type=\"button\" value=\"Refresh Page\" onclick=\"window.location.reload()\">Clock In!</button>\r\n    ");
                 EndContext();
                 BeginContext(252, 37, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c58b8340b5f4797bfdf3bfe15363b15", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ebc00d49379d4898b739b3f81b58fdaa", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

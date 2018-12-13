@@ -67,12 +67,12 @@ using NewTimeSheet2.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(48, 502, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a87e5cbf1ba41f7b4b20af16cef9345", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4be6545ae2d496887f237e589f41a26", async() => {
                 BeginContext(54, 157, true);
                 WriteLiteral("\r\n    <h2>Clock Out here by entering your time which is displayed at the bottom</h2>\r\n    <a href=\"index\" class=\"btn btn-default btn-flat\">ClockOut</a>\r\n    ");
                 EndContext();
                 BeginContext(211, 37, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d9746f1ac0d94ff88ba6485a2456bc46", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2eec5888a31c42ae9150070aff8b1edf", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -121,7 +121,7 @@ using NewTimeSheet2.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(554, 500, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a883be34d2084b64831fb2f5cfbed20e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfa06c23657a4ab4973834c94aacb707", async() => {
                 BeginContext(586, 461, true);
                 WriteLiteral(@"
     <asp:Label ID=""Label1"" Text=""Loggin Out Please Wait"" runat=""server"" />

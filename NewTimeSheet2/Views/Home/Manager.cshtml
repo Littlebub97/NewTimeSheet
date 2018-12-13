@@ -4,6 +4,10 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+<authorization>
+    <allow users="mario@smashbros.nintendo" />
+    <deny users="kirby@smashbros.nintendo" />
+</authorization>
 <table border="5" width="100%" cellpadding="4" cellspacing="3">
     <tr>
         <th colspan="4"><br /><h3>Management</h3></th>
@@ -48,20 +52,21 @@
     <tr align="center">
         <td>Kirby  </td>
         <td>1</td>
-        <td>12/4/2018</td>
+        <td>12/4/2018 8:00 am</td>
         <td>Employee <input id="Checkbox1" type="checkbox" /></td>
+        
     </tr>
 
     <tr align="center">
         <td>Luigi</td>
         <td>2</td>
-        <td>12/4/2018</td>
+        <td>12/4/2018 12:00 pm</td>
         <td>Manager <input id="Checkbox1" type="checkbox" /></td>
     </tr>
     <tr align="center">
         <td>Bowser</td>
         <td>3</td>
-        <td>12/4/2018</td>
+        <td>12/4/2018 1:30 pm</td>
         <td>HR <input id="Checkbox1" type="checkbox" /></td>
 
     </tr>
