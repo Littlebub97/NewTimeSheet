@@ -32,7 +32,11 @@ namespace NewTimeSheet2.Controllers
             ViewData["Message"] = "ClockIn";
             return View();
         }
-
+        public IActionResult ClockOut()
+        {
+            ViewData["Message"] = "ClockOut";
+            return View();
+        }
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NewTimeSheet2.Models
 {
-   [Table("TimeSheet", Schema = "TimeSheet")]
+   [Table("TimeSheet", Schema = "NewTimeShee2")]
    public class Timesheet
     {
         public int EmployeeId { get; set; }

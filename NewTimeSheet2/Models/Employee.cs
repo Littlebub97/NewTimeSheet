@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace NewTimeSheet2.Models
 {
-    [Table("Employee", Schema = "TimeSheet")]
+    [Table("Employee", Schema = "NewTimeSheet2")]
     public class Employee : IdentityUser
     {
         [Required]
