@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Identity;
 
 
 namespace NewTimeSheet2.Models
-{   
+{
+    [Table("Employee", Schema = "TimeSheet")]
     public class Employee : IdentityUser
     {
         [Required]

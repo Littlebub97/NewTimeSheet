@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace NewTimeSheet2.Models.Entities
+namespace NewTimeSheet2.Models
 {
    [Table("TimeSheet", Schema = "TimeSheet")]
    public class Timesheet

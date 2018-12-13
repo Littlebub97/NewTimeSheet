@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TimeSheet.Models.Entities
+namespace NewTimeSheet2.Models
 {
     [Table("Department", Schema = "TimeSheet")]
     public class Department 

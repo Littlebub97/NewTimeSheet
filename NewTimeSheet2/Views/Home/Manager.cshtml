@@ -7,7 +7,7 @@
 <table border="5" width="100%" cellpadding="4" cellspacing="3">
     <tr>
         <th colspan="4"><br /><h3>Management</h3></th>
-        </tr>
+    </tr>
     <tr>
         <th>Name</th>
         <th>Id</th>
@@ -15,23 +15,61 @@
         <th>Role</th>
     </tr>
     <tr align="center">
-        <td>John doe</td>
+        <td>Kirby</td>
         <td>1</td>
         <td>12/4/2018</td>
         <td>Employee</td>
     </tr>
+
+    <tr align="center">
+        <td>Luigi</td>
+        <td>2</td>
+        <td>12/4/2018</td>
+        <td>Manager</td>
+    </tr>
+    <tr align="center">
+        <td>Bowser</td>
+        <td>3</td>
+        <td>12/4/2018</td>
+        <td>HR</td>
+    </tr>
 </table>
+<h1>TimeSheet Approval</h1>
+<table border="5" width="100%" cellpadding="4" cellspacing="3">
+    <tr>
+        <th colspan="4"><br /><h3>Management</h3></th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Id</th>
+        <th>Date</th>
+        <th>Role</th>
+    </tr>
+    <tr align="center">
+        <td>Kirby  </td>
+        <td>1</td>
+        <td>12/4/2018</td>
+        <td>Employee <input id="Checkbox1" type="checkbox" /></td>
+    </tr>
 
+    <tr align="center">
+        <td>Luigi</td>
+        <td>2</td>
+        <td>12/4/2018</td>
+        <td>Manager <input id="Checkbox1" type="checkbox" /></td>
+    </tr>
+    <tr align="center">
+        <td>Bowser</td>
+        <td>3</td>
+        <td>12/4/2018</td>
+        <td>HR <input id="Checkbox1" type="checkbox" /></td>
 
+    </tr>
 
-//Create or find role controller
-<br />
-//Assign one of our users a role
-<br />
-//lock an action to only managers
-<br />
-//Finish the manager View
-<br />
-//Lock manager role
-<br />
-//Create a TimeSheet Approval view
+</table>
+<input id="Submit1" type="submit" value="submit" />
+<script>
+<button onclick="location.reload();">Refresh Page</button>
+</script>
+<h3>Reason for rejection</h3>
+<input id="Text1" type="text" />
