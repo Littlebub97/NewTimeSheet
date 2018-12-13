@@ -12,47 +12,48 @@ namespace NewTimeSheet2.Seeder
 {
     public class DBInitializer
     {
-    
-        /*
-    public static void InitializeData(IServiceProvider serviceProvider)
-    {
-        var context = serviceProvider.GetService<ApplicationDbContext>();
-        InitializeData(context);
-    }
 
-    public static void InitializeData(ApplicationDbContext context)
-    {
-        context.Database.Migrate();
-        ClearData(context);
-        SeedData(context);
-    }
 
-    public static void ClearData(ApplicationDbContext context)
-    {
-        context.Database.ExecuteSqlCommand("DELETE FROM [NewTimeSheet2].[Employee]");
-        context.Database.ExecuteSqlCommand("DELETE FROM [NewTimeSheet2].[AspNetRoles]");
-    }
-
-    private static void SeedData(ApplicationDbContext context)
-    {
-        context.Database.EnsureCreated();
-
-        if (!context.Users.Any())
+        public static void InitializeData(IServiceProvider serviceProvider)
         {
-            context.AddRange(SampleData.GetUsers());
-            context.SaveChanges();
+            var context = serviceProvider.GetService<ApplicationDbContext>();
+            InitializeData(context);
         }
-        if (!context.Roles.Any())
+
+        public static void InitializeData(ApplicationDbContext context)
         {
-            context.AddRange(SampleData.GetRoles());
-            context.SaveChanges();
+            context.Database.Migrate();
+            ClearData(context);
+            SeedData(context);
         }
-      //  if (!context.UserRoles.Any())
-        //{
-          //  context.AddRange(SampleData.GetUserRole(context.Roles.ToList(), context.Employee.ToList()));
+
+        public static void ClearData(ApplicationDbContext context)
+        {
+            context.Database.ExecuteSqlCommand("DELETE FROM [NewTimeSheet2].[Employee]");
+            context.Database.ExecuteSqlCommand("DELETE FROM [NewTimeSheet2].[AspNetRoles]");
+        }
+
+        private static void SeedData(ApplicationDbContext context)
+        {
+            context.Database.EnsureCreated();
+
+            if (!context.Users.Any())
+            {
+                context.AddRange(SampleData.GetUsers());
+                context.SaveChanges();
+            }
+            if (!context.Roles.Any())
+            {
+                context.AddRange(SampleData.GetRoles());
+                context.SaveChanges();
+            }
+            //  if (!context.UserRoles.Any())
+            //{
+            //  context.AddRange(SampleData.GetUserRole(context.Roles.ToList(), context.Employee.ToList()));
             //context.SaveChanges();
-       // }
-       */
+            // }
+
+        }
     }
 }
 

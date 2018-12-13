@@ -11,7 +11,7 @@ namespace NewTimeSheet2.Seeder
 {
     public class SampleData
     {
-        /*
+        
         public static IEnumerable<IdentityRole> GetRoles()
             => new List<IdentityRole>()
         {
@@ -98,6 +98,6 @@ namespace NewTimeSheet2.Seeder
             return employees;
         }
     }
-    */
+    
     }
-}
+
